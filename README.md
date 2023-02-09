@@ -1,4 +1,4 @@
-Arquivos do módulo inicial de Node + Typescript, da estrutura MVC aplicada.
+Arquivos do módulo inicial de Node + Typescript.
 
 ### Pré-requisitos globais:
 `npm i -g nodemon typescript ts-node`
