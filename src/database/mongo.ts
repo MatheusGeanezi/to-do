@@ -1,4 +1,4 @@
-import { connect } from 'mongoose'
+import { connect } from 'mongoose';
 import dotenv from 'dotenv';
 
 dotenv.config();
@@ -6,12 +6,12 @@ dotenv.config();
 export const mongoConnect = async () => {
 
     try {
-        await connect(process.env.MONGO_URL as string)
-        console.log("sinc")
+        await connect(process.env.MONGO_URL as string);
+        console.log('sinc');
 
     } catch (error) {
-        console.log("error", error)
+        console.log('error', error);
 
     }
 
-}
+};

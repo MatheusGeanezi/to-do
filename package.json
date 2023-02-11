@@ -13,7 +13,10 @@
   "devDependencies": {
     "@types/express": "^4.17.12",
     "@types/node": "^15.12.5",
-    "@types/validator": "^13.1.4"
+    "@types/validator": "^13.1.4",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "eslint": "^8.34.0"
   },
   "dependencies": {
     "dotenv": "^10.0.0",

@@ -11,9 +11,9 @@ const schema = new Schema<toDoType>({
     desc: String,
     status: String,
 
-})
+});
 
-const modelName: string = 'toDo'
+const modelName = 'toDo';
 
 export default (connection && connection.models[modelName]) ?
     connection.models[modelName] as Model<toDoType> : model<toDoType>(modelName, schema);
